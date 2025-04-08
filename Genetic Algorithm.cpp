@@ -1,3 +1,7 @@
+// Person 3 - Fitness Comparison
+bool compare_by_fitness(const Chromosome &a, const Chromosome &b) {
+    return a.fitness > b.fitness;
+}
 
 void run_genetic_algorithm(vector<Chromosome>& population) {
     for (int generation = 0; generation < MAX_GENERATIONS; generation++) {
